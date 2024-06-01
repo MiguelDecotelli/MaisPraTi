@@ -1,0 +1,26 @@
+.calculadora{
+    background-color: darkslategray;
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid;
+    border-radius: .2rem;
+}
+.dados{
+background-color: goldenrod;
+color: antiquewhite;
+font-weight: bold;
+width: 37px;
+}
+
+.numeros {
+    background-color: darkgreen;
+    width: 37px;
+    color: antiquewhite;
+}
+
+.operadores {
+    background-color: navy;
+    width: 37px;
+    color: antiquewhite;
+
+}

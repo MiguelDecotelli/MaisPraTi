@@ -37,8 +37,11 @@ function eleitorado() {
     let percentualNulos = (votosNulos * 100) / eleitores;
     let percentualValidos = (votosValidos * 100) / eleitores;
 
-    return `${percentualBrancos}% de votos brancos\n${percentualNulos}% de votos nulos\n${percentualValidos}% de votos válidos`;
+    return `${percentualBrancos}% de votos brancos\n
+    ${percentualNulos}% de votos nulos\n
+    ${percentualValidos}% de votos válidos`;
 }
+
 
 console.log(eleitorado());
 
@@ -63,13 +66,13 @@ function algoritmo() {
     let somar = numero1 + 25;
     let triplicar = numero2 * 3;
     let modificar = numero3 * (12 / 100);
-    let armazenar = numero1 + numero2 + numero3
+    numero4 = numero1 + numero2 + numero3
 
     return `
     Some 25 ao primeiro intero: ${somar}\n
     Triplique o valor do segundo inteiro: ${triplicar}\n
     Modifique o valor do inteiro para 12% do valor original: ${modificar}\n
-    Armazene a soma dos 3 inteiros: ${armazenar}`
+    Armazene a soma dos 3 inteiros: ${numero4}`
 }
 
 console.log(algoritmo());

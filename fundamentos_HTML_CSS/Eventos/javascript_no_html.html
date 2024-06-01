@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eventos.css">
+    <title>Eventos JavaScript</title>
+</head>
+<script src="eventos.js"></script>
+
+<body onscroll="eventoJanela()">
+    <div>
+        <aside>
+            <nav>
+                <ul>
+                    <li>
+                        <p>X-Men 97</p>
+                    </li>
+                    <li>
+                        <a href="http://">Episódios</a>
+                    </li>
+                    <li>
+                        <a href="http://">Personagens</a>
+                    </li>
+                    <li>
+                        <a href="http://">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+    <input type="submit" onclick="alert('EPA')">
+    <input type="text" placeholder="Adamantium" id="nome" disabled="disabled">
+    <script src="eventos.js"></script>
+
+    <div style="background-color: darkred; height: 50px; width: 50px;" ondblclick="eventoMouse()">
+
+    </div>
+    <input onkeydown="eventoTeclado()" type="text">
+    <input onkeyup="eventoTeclado()" type="text">
+    <input onkeypress="eventoTeclado()" type="text">
+
+    <div>
+        <label for="players">Escolha um jogador</label>
+        <select id="players" onblur="eventoBlur()">
+            <option value="">Qual craque?</option>
+            <option value="Camisa10">Payet</option>
+            <option value="Camisa11">Coutinho</option>
+        </select>
+        <h2 id="result"></h2>
+    </div>
+    <script src="eventos.js"></script>
+
+    <script>
+        function eventoBlur() {
+            const selectElement = document.getElementById('players');
+            const selectedValue = selectElement.options[selectElement.selectedIndex].value;
+            const resultElement = document.getElementById('result');
+
+            resultElement.textContent = selectedValue;
+        }
+    </script>
+
+    
+
+
+</body>
+
+</html>
