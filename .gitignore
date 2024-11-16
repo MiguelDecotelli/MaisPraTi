@@ -62,6 +62,12 @@ fundamentos_Spring/Aula_78_JWT_OAuth2
 fundamentos_Spring/Aula_81
 fundamentos_Spring/JWT-OAuth2Demo
 fundamentos_Spring/relacionamentos-springBoot
+fundamentos_Spring/Atividade13/api-user/.gitignore
+fundamentos_Spring/Atividade13/api-user/mvnw
+fundamentos_Spring/Atividade13/api-user/mvnw.cmd
+fundamentos_Spring/Atividade13/api-user/pom.xml
+fundamentos_Spring/Atividade13/api-user/.mvn
+fundamentos_Spring/Atividade13/api-user/src/test
 
 
 # PASTA SQL
